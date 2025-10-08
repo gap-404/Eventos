@@ -16,8 +16,6 @@ def el_usuario_quiere_salir():
 VAL_VERSION = re.compile(r"^[0-9.]*$")
 VAL_TIPO = re.compile(r"^[A-Za-z .]*$")
 
-
-
 def limpiar_campos_texto():
     for var, err in [
         (var_version, err_version),
